@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_calculator/constants.dart';
 import 'dart:math' as math;
 
-class CalculatorButton extends StatelessWidget {
+class CalculatorButton1 extends StatelessWidget {
   final int? flex;
   final text;
   final IconData? icon;
@@ -10,7 +10,7 @@ class CalculatorButton extends StatelessWidget {
   final onPressed;
   final bool? transform;
 
-  CalculatorButton({this.flex, this.transform, this.text, this.color, required this.onPressed, this.icon});
+  CalculatorButton1({this.flex, this.transform, this.text, this.color, required this.onPressed, this.icon});
 
   @override
   Widget build(BuildContext context) {
@@ -25,7 +25,7 @@ class CalculatorButton extends StatelessWidget {
         child: TextButton(
           style: ButtonStyle(
             padding: MaterialStateProperty.all(EdgeInsets.zero),
-            backgroundColor: MaterialStateProperty.all(color ?? kBackgroundColor),
+            backgroundColor: MaterialStateProperty.all(color ?? kBackgroundColor1),
           ),
           onPressed: onPressed,
           child: icon != null
