@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_calculator/logic/screen_handler.dart';
-import 'package:flutter_calculator/constants.dart';
 import 'package:flutter_calculator/ui/redesign/buttons.dart';
 import 'package:flutter_calculator/ui/redesign/theme_changer.dart';
 import 'package:provider/provider.dart';
