@@ -82,7 +82,6 @@ PreferredSizeWidget themeChangeContainer(BuildContext context) {
   );
 }
 
-
 // ? Before Redesign
 
 class HomePage1 extends StatelessWidget {
@@ -98,4 +97,3 @@ class HomePage1 extends StatelessWidget {
     );
   }
 }
-
